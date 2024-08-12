@@ -1,0 +1,9 @@
+---
+# Find: pacman -F clangd
+
+- name: Install Clangd
+  community.general.pacman:
+    name:
+      - extra/clang
+    state: present
+  become: true

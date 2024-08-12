@@ -1,0 +1,8 @@
+---
+- name: Install Clangd Language Server
+  community.general.rpm_ostree_pkg:
+    name: clang-tools-extra
+    state: present
+  become: true
+  notify:
+  - Reboot
