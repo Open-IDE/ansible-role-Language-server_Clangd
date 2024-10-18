@@ -1,3 +1,4 @@
 # https://wiki.codeblocks.org/index.php/CB_Clangd_Client
 
-clangd_version: 13
+# Ubuntu 24.10 = 19
+clangd_version: 19
